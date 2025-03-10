@@ -1423,6 +1423,13 @@
   dependencies:
     "@radix-ui/react-use-layout-effect" "1.1.0"
 
+"@radix-ui/react-label@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-label/-/react-label-2.1.2.tgz#994a5d815c2ff46e151410ae4e301f1b639f9971"
+  integrity sha512-zo1uGMTaNlHehDyFQcDZXRJhUPDuukcnHz0/jnrup0JA6qL+AFpAnty+7VKa9esuU5xTblAZzTGYJKSKaBxBhw==
+  dependencies:
+    "@radix-ui/react-primitive" "2.0.2"
+
 "@radix-ui/react-menu@2.1.6":
   version "2.1.6"
   resolved "https://registry.npmjs.org/@radix-ui/react-menu/-/react-menu-2.1.6.tgz"
@@ -4291,6 +4298,11 @@ react-dom@^19.0.0:
   integrity sha512-4GV5sHFG0e/0AD4X+ySy6UJd3jVl1iNsNHdpad0qhABJ11twS3TTBnseqsKurKcsNqCEFeGL3uLpVChpIO3QfQ==
   dependencies:
     scheduler "^0.25.0"
+
+react-hook-form@^7.54.2:
+  version "7.54.2"
+  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.54.2.tgz#8c26ed54c71628dff57ccd3c074b1dd377cfb211"
+  integrity sha512-eHpAUgUjWbZocoQYUHposymRb4ZP6d0uwUnooL2uOybA9/3tPUvoAKqEWK1WaSiTxxOfTpffNZP7QwlnM3/gEg==
 
 react-is@^16.13.1:
   version "16.13.1"
