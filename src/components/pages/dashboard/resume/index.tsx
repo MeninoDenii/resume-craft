@@ -25,6 +25,27 @@ export const ResumePage = () => {
         location: "",
         website: "",
       },
+      summary: "",
+      certifications: [],
+      educations: [],
+      experiences: [],
+      languages: [],
+      projects: [],
+      skills: [],
+      socialMedias: [
+        {
+          icon: "",
+          name: "test 1",
+          url: "test 1",
+          username: "test 1",
+        },
+        {
+          icon: "",
+          name: "test 2",
+          url: "test 2",
+          username: "test 2",
+        },
+      ],
     },
   };
   const methods = useForm<ResumeData>({
