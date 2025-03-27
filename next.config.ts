@@ -10,6 +10,9 @@ const nextConfig: NextConfig = {
 
     return config;
   },
+  images: {
+    formats: ["image/webp"],
+  },
 };
 
 export default nextConfig;
