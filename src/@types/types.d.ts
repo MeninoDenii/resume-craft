@@ -71,7 +71,7 @@ type ResumeContentData = {
   image: ResumeImageData;
   infos: ResumeInfosData;
   summary: string;
-  socialMedias: Partial<ResumeSocialMediaData>[];
+  socialmedias: Partial<ResumeSocialMediaData>[];
   experiences: Partial<ResumeExperienceData>[];
   educations: Partial<ResumeEducationData>[];
   skills: Partial<ResumeSkillData>[];

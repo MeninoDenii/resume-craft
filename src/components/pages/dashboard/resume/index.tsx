@@ -32,7 +32,7 @@ export const ResumePage = () => {
       languages: [],
       projects: [],
       skills: [],
-      socialMedias: [],
+      socialmedias: [],
     },
     structure: {
       template: "ditto",

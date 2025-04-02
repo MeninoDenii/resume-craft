@@ -74,6 +74,8 @@ const labels: Record<ResumeSections, Record<ResumeLanguages, string>> = {
   },
 };
 
+export const sectionLabels = labels;
+
 export const LayoutDragList: React.FC<LayoutDragListProps> = ({
   fields,
   title,

@@ -37,7 +37,7 @@ type FormConfigObject = {
 };
 
 const formConfig: FormConfigObject = {
-  socialMedias: [
+  socialmedias: [
     {
       label: "Rede",
       key: "name",

@@ -35,7 +35,7 @@ export const MultipleSections = () => {
 
   const sectionsKeys: MultipleDragItemData[] = [
     {
-      formKey: "socialMedias",
+      formKey: "socialmedias",
       title: "Redes Sociais",
       icon: Share2,
       titleKey: "name",
