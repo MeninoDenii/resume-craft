@@ -1,4 +1,4 @@
-import { ResumesList } from "../../../components/pages/dashboard/resumes/resumes-list";
+import { ResumesList } from "@/components/pages/dashboard/resumes/resumes-list";
 
 export default function DashBoardResumesPage() {
   return (
