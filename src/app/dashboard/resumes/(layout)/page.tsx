@@ -1,4 +1,6 @@
 import { ResumesList } from "@/components/pages/dashboard/resumes/resumes-list";
+import { ResumesListSkeleton } from "@/components/pages/dashboard/resumes/resumes-list/skeleton";
+import { Suspense } from "react";
 
 export default function DashBoardResumesPage() {
   return (
@@ -7,7 +9,9 @@ export default function DashBoardResumesPage() {
         Currículos
       </h1>
 
-      <ResumesList />
+      <Suspense fallback={<ResumesListSkeleton />}>
+        <ResumesList />
+      </Suspense>
     </>
   );
 }

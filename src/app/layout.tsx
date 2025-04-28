@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Nunito, Nunito_Sans } from "next/font/google";
 import "../styles/globals.css";
+import { setDefaultOptions } from "date-fns";
+import { ptBR } from "date-fns/locale";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/shared/theme-provider";
 import { Toaster } from "@/components/ui/sonner";
@@ -18,6 +20,10 @@ const fontTitle = Nunito({
 export const metadata: Metadata = {
   title: "ResumeCraft",
 };
+
+setDefaultOptions({
+  locale: ptBR,
+});
 
 export default function RootLayout({
   children,
