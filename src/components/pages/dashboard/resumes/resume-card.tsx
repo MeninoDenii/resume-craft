@@ -46,7 +46,7 @@ export const ResumeCard = ({ resume }: ResumeCard) => {
   });
 
   return (
-    <Link href={`/dashboard/resumes${resume.id}`} className="block w-full">
+    <Link href={`/dashboard/resumes/${resume.id}`} className="block w-full">
       <ResumeCardButton
         title={resume.title}
         description={`Última atualização ${formattedLastUpdated}`}
